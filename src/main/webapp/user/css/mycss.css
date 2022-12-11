@@ -1,0 +1,92 @@
+#sp-page {
+    color: #4B564F;
+}
+
+.sp-text-wrapper {
+    text-align: center !important;
+    justify-content: center !important
+}
+
+#sp-page h1,
+#sp-page h2,
+#sp-page h3,
+#sp-page h4,
+#sp-page h5,
+#sp-page h6 {
+    margin: 0
+}
+
+#sp-page {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    background-color: transparent !important;
+    background-image: none !important
+}
+
+.spBgcover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+    min-height: 100%
+}
+
+.sp-content-4 {
+    align-items: center;
+    justify-content: center
+}
+
+#sp-page .sp-header-tag-h1,
+#sp-page .sp-header-tag-h2,
+#sp-page .sp-header-tag-h3,
+#sp-page .sp-header-tag-h4,
+#sp-page .sp-header-tag-h5,
+#sp-page .sp-header-tag-h6 {
+    color: #112418
+}
+
+#sp-page h1,
+#sp-page h2,
+#sp-page h3,
+#sp-page h4,
+#sp-page h5,
+#sp-page h6 {
+    color: #112418;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-style: normal
+}
+
+#sp-page a {
+    color: #018F4B
+}
+
+#sp-page a:hover {
+    color: #015c30
+}
+
+#sp-page .btn {
+    background-color: #018F4B
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+    #sp-oqbene.sp-css-target {
+        font-size: 40px !important;
+    }
+
+    #sp-oqbene .sp-css-target {
+        font-size: 40px !important;
+    }
+}
+
+.sp-justify-between{justify-content:space-between}
+.sp-w-full{width:100%}
+.sp-m-auto{margin:auto}
